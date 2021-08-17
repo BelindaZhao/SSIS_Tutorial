@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Lesson2"
   DTS:PackageType="5"
-  DTS:VersionBuild="5"
-  DTS:VersionGUID="{B5D65384-20B7-468C-AF5B-5211D4FC44B9}">
+  DTS:VersionBuild="6"
+  DTS:VersionGUID="{09737178-3258-4620-A79A-658B595DAAC3}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -365,8 +365,8 @@ where [refTable].[CurrencyAlternateKey] = ?</property>
                   <connections>
                     <connection
                       refId="Package\Foreach Loop Container\Extract Sample Currency Data\Lookup Currency Key.Connections[OleDbConnection]"
-                      connectionManagerID="{F700FF5B-C607-4F99-95D8-2355B2112F13}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[laptop-belinda.AdventureWorksDW2012]"
+                      connectionManagerID="{F700FF5B-C607-4F99-95D8-2355B2112F13}:invalid"
+                      connectionManagerRefId="{F700FF5B-C607-4F99-95D8-2355B2112F13}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -524,8 +524,8 @@ where [refTable].[FullDateAlternateKey] = ?</property>
                   <connections>
                     <connection
                       refId="Package\Foreach Loop Container\Extract Sample Currency Data\Lookup Date Key.Connections[OleDbConnection]"
-                      connectionManagerID="{F700FF5B-C607-4F99-95D8-2355B2112F13}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[laptop-belinda.AdventureWorksDW2012]"
+                      connectionManagerID="{F700FF5B-C607-4F99-95D8-2355B2112F13}:invalid"
+                      connectionManagerRefId="{F700FF5B-C607-4F99-95D8-2355B2112F13}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -671,8 +671,8 @@ where [refTable].[FullDateAlternateKey] = ?</property>
                   <connections>
                     <connection
                       refId="Package\Foreach Loop Container\Extract Sample Currency Data\Sample OLE DB Destination.Connections[OleDbConnection]"
-                      connectionManagerID="{F700FF5B-C607-4F99-95D8-2355B2112F13}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[laptop-belinda.AdventureWorksDW2012]"
+                      connectionManagerID="{F700FF5B-C607-4F99-95D8-2355B2112F13}:invalid"
+                      connectionManagerRefId="{F700FF5B-C607-4F99-95D8-2355B2112F13}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -820,7 +820,7 @@ where [refTable].[FullDateAlternateKey] = ?</property>
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="219.2,41.6"
           Id="Package\Foreach Loop Container\Extract Sample Currency Data"
@@ -832,6 +832,13 @@ where [refTable].[FullDateAlternateKey] = ?</property>
           Size="364.8,232"
           Id="Package\Foreach Loop Container"
           TopLeft="34.2857148695963,67.9058833052955" />
+        <AnnotationLayout
+          Text="Lesson 2 "
+          ParentId="Package"
+          FontInfo="{assembly:Null}"
+          Size="77.6,60"
+          Id="579257a0-8330-4c8a-9f41-01acb9b7e03a"
+          TopLeft="398.85714964964,24.4705885784849" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
